@@ -52,3 +52,34 @@ java -jar Justin.jar  --jre "xx\\Program Files\\Java\\jre1.8.0.212" --input .\co
 #####  统计页面 
 
 #####  异常用例及堆栈页面 
+22	**test_matchesPattern_1_99**	org.apache.commons.lang3.Validate	**java.util.regex.PatternSyntaxException**   
+测试用例详细信息
+```                    
+  @Test(timeout = 5000)
+  public void test_matchesPattern_1_99() {
+
+      java.lang.CharSequence charSequence4 = new org.apache.commons.lang3.text.StrBuilder();
+      java.lang.String string5 = "[0,1]";
+      java.lang.String string6 = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+      java.lang.Object[] objectArray7 = {};
+      org.apache.commons.lang3.Validate.matchesPattern(charSequence4, string5, string6, objectArray7);
+
+  }
+```
+
+                
+堆栈详细信息
+ ```               
+test_matchesPattern_1_99(org.apache.commons.lang3.Validate_Test): Illegal repetition
+{"key":2 }
+java.util.regex.Pattern.error(Pattern.java:1957)
+java.util.regex.Pattern.closure(Pattern.java:3159)
+java.util.regex.Pattern.sequence(Pattern.java:2136)
+java.util.regex.Pattern.expr(Pattern.java:1998)
+java.util.regex.Pattern.compile(Pattern.java:1698)
+java.util.regex.Pattern.(Pattern.java:1351)
+java.util.regex.Pattern.compile(Pattern.java:1028)
+java.util.regex.Pattern.matches(Pattern.java:1133)
+org.apache.commons.lang3.Validate.matchesPattern(Validate.java:877)
+org.apache.commons.lang3.Validate_Test.test_matchesPattern_1_99(Validate_Test.java:1128)
+```
