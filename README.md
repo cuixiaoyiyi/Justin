@@ -86,3 +86,5 @@ java.util.regex.Pattern.matches(Pattern.java:1133)
 org.apache.commons.lang3.Validate.matchesPattern(Validate.java:877)
 org.apache.commons.lang3.Validate_Test.test_matchesPattern_1_99(Validate_Test.java:1128)
 ```
+
+如果遇到找不到 JavaCompiler 异常，复制 JDK目录下的tool.jar 至 jre对应的目录下
