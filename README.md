@@ -51,6 +51,9 @@ java -jar Justin.jar  --jre "xx\\Program Files\\Java\\jre1.8.0.212" --input .\co
 
 #####  统计页面 
 
+![Justin-report-commons-lang3-3.9](https://github.com/cuixiaoyiyi/Justin/blob/main/Justin-report-commons-lang3-3.9.jpeg)
+
+
 #####  异常用例及堆栈页面 
 22	**test_matchesPattern_1_99**	org.apache.commons.lang3.Validate	**java.util.regex.PatternSyntaxException**   
 测试用例详细信息
