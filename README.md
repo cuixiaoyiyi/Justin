@@ -46,10 +46,16 @@ java -jar Justin.jar  --jre "xx\\Program Files\\Java\\jre1.8.0.212" --input .\co
 
 ```
 
-###  结果展示
+###  命令行运行进度条
+
+![Progress](https://github.com/cuixiaoyiyi/Justin/blob/main/Progress.png) 
+
+
+###  测试报告
 全部结果见 commons-lang3-3.9-outputPath10140942.zip  
 
-#####  统计页面 
+
+#####  基本信息 
 
 ![Justin-report-commons-lang3-3.9](https://github.com/cuixiaoyiyi/Justin/blob/main/Justin-report-commons-lang3-3.9.jpeg)
 
