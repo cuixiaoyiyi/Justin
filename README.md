@@ -9,6 +9,10 @@ Justin，一个面向Java程序的单元测试用例自动生成工具。
 特别地，白盒策略中实现了基于正则表达式的字符串生成方法。
 它输出可视化的报告，包含测试统计、异常统计、异常堆栈等信息。实践表明， Justin可以有效检测出软件中的缺陷。
 
+##  视频介绍
+[Justin YouTube点击直达](https://youtu.be/mAmCV0dsBRs)  
+https://youtu.be/mAmCV0dsBRs
+
 
 ## 使用方式  
 JDK 1.8 
